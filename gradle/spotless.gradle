@@ -1,0 +1,35 @@
+
+spotless {
+    java {
+        target fileTree('.') {
+            include '**/*.java'
+            exclude '**/build/**', '**/build-*/**'
+        }
+
+        // 사용안되는 Import 제거
+        removeUnusedImports()
+
+        // space 로 들여 쓰기
+        indentWithSpaces(4)
+
+        // 끝부분 New Line
+        endWithNewline()
+
+        // google java format
+        googleJavaFormat()
+
+        // import 순서
+        importOrder 'java', 'javax', 'org', 'com', 'com.diffplug', ''
+    }
+
+    format 'misc', {
+        target fileTree('.') {
+            include '**/*.gradle', '**/*.md', '**/.gitignore'
+            exclude '**/build/**', '**/build-*/**'
+        }
+
+        trimTrailingWhitespace()
+        indentWithSpaces(4)
+        endWithNewline()
+    }
+}

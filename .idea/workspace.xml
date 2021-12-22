@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5453c6ae-f60b-461e-9e7e-4c4fcb30a796" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pryaoh/boilerplate/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pryaoh/boilerplate/app/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/pryaoh/boilerplate/app/MessageUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/com.pryaoh.boilerplate.java-application-conventions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/com.pryaoh.boilerplate.java-common-conventions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/com.pryaoh.boilerplate.java-library-conventions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/main/java/com/pryaoh/boilerplate/list/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/src/test/java/com/pryaoh/boilerplate/list/LinkedListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/com/pryaoh/boilerplate/utilities/JoinUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/com/pryaoh/boilerplate/utilities/SplitUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/src/main/java/com/pryaoh/boilerplate/utilities/StringUtils.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +50,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="22bHFLLdbfHhGOHqT3VxvttiJ5p" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,9 +60,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -73,6 +99,19 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring-legacy-boilerplate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring-legacy-boilerplate" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.spring-legacy-boilerplate" />
@@ -91,15 +130,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/pryaoh/boilerplate/app/App.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

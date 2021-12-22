@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'boilerplate'
-include('app', 'list', 'utilities')
+

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="15" />
+    <bytecodeTargetLevel target="11">
+      <module name="boilerplate.app.main" target="17" />
+      <module name="boilerplate.app.test" target="17" />
+      <module name="boilerplate.list.main" target="17" />
+      <module name="boilerplate.list.test" target="17" />
+      <module name="boilerplate.utilities.main" target="17" />
+      <module name="boilerplate.utilities.test" target="17" />
+      <module name="spring-legacy-boilerplate.buildSrc" target="17" />
+      <module name="spring-legacy-boilerplate.buildSrc.main" target="17" />
+      <module name="spring-legacy-boilerplate.buildSrc.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

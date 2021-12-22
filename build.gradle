@@ -1,0 +1,29 @@
+// buildscript
+
+buildscript {
+    ext.gradleScriptDir = "${project.getRootDir()}/gradle"
+
+    def profile = project.hasProperty('profile') ? project.getProperty('profile') : 'dev'
+    logger.quiet "######### Lodding Configuration For Profile Active : [${profile}] Version : [${projectVersion}] ###########"
+
+    // profile Environment setting
+    def configFile = file("${gradleScriptDir}/environment.groovy")
+    def parsedConfig = new ConfigSlurper(profile).parse(configFile.toURI().toURL())
+
+    ext.env = parsedConfig
+
+    logger.quiet "######### Check Environment [${env.artifactory.host.url}] ###########"
+    logger.quiet "######### Check Environment [${env.artifactory.repokey}] ###########"
+    logger.quiet "######### Check Environment [${env.artifactory.username}] ###########"
+    logger.quiet "######### Check Environment [${env.artifactory.password}] ###########"
+}
+
+plugins {
+    id 'java'
+    id 'idea'
+    id "com.diffplug.spotless" version "6.0.5"
+}
+
+
+apply from: "${gradleScriptDir}/java.gradle"
+apply from: "${gradleScriptDir}/spotless.gradle"
